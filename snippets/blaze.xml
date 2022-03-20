@@ -61,6 +61,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk" remote="blaze" />
   <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="blaze" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
+  <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" group="pdk" remote="blaze" />
 
   <!-- system repos -->
   <project path="system/bpf" name="system_bpf" groups="pdk" remote="blaze" />
