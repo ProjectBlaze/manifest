@@ -45,7 +45,8 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="blaze" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="blaze" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" groups="pdk" remote="blaze" />
-
+  <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
+  
   <!-- packages repos -->
   <project path="packages/apps/Settings/BlazeHouse" name="packages_apps_BlazeHouse" groups="pdk" remote="blaze" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk" remote="blaze" />
