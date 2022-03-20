@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="android" name="manifest" remote="blaze" />
+  <project path="art" name="art" groups="pdk" remote="blaze"/>
+  <project path="bionic" name="bionic" groups="pdk" remote="blaze"/>
+  <project path="build/make" name="build" groups="pdk"  remote="blaze" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="blaze" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="blaze" />
+
+  <!-- device repos -->
+  <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" remote="blaze" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="blaze" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="blaze" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="blaze" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="blaze" />
+
+  <!-- external repos -->
+  <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="blaze" />
+  <project path="external/selinux" name="external_selinux" groups="pdk" remote="blaze" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="blaze" />
+  <project path="external/faceunlock" name="external_faceunlock" groups="pdk" remote="blaze" />
+
+  <!-- framework repos -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="blaze" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="blaze" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="blaze" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="blaze" /> 
+
+  <!-- hardware repos -->
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="blaze" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="blaze" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="blaze" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" groups="pdk" remote="blaze" />
+
+  <!-- packages repos -->
+  <project path="packages/apps/Settings/BlazeHouse" name="packages_apps_BlazeHouse" groups="pdk" remote="blaze" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk" remote="blaze" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk" remote="blaze" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk" remote="blaze" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" groups="pdk" remote="blaze" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" groups="pdk" remote="blaze" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="blaze" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk" remote="blaze" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="blaze" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk" remote="blaze" />
+  <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="blaze" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
+
+  <!-- system repos -->
+  <project path="system/bpf" name="system_bpf" groups="pdk" remote="blaze" />
+  <project path="system/core" name="system_core" groups="pdk" remote="blaze" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="blaze" />
+  <project path="system/security" name="system_security" groups="pdk" remote="blaze" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="blaze" />
+  <project path="system/update_engine" name="system_update_engine" remote="blaze" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="blaze" />
+
+  <!-- vendor repos -->
+  <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
+  <project path="vendor/gms" name="platform_vendor_gms" remote="gitlab" />
+  <project path="vendor/support" name="vendor_support" remote="blaze" />
+
+</manifest>
