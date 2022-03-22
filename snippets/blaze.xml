@@ -32,6 +32,8 @@
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="blaze" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="blaze" />
   <project path="external/faceunlock" name="external_faceunlock" groups="pdk" remote="blaze" />
+  <project path="external/colorkt" name="external_colorkt" remote="blaze" />
+  <project path="external/themelib" name="external_themelib" remote="blaze" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="blaze" />
