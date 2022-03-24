@@ -50,7 +50,7 @@
   <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
   
   <!-- packages repos -->
-  <project path="packages/apps/Settings/BlazeHouse" name="packages_apps_BlazeHouse" groups="pdk" remote="blaze" />
+  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" groups="pdk" remote="blaze" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk" remote="blaze" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk" remote="blaze" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk" remote="blaze" />
