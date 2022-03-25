@@ -28,5 +28,6 @@ $ . build/envsetup.sh
 $ lunch blaze_$device-userdebug
 $ brunch <device_codename>
 ```
-
+NOTE:
+If building for your device, adapt your tree to our configurations. Use this [commit](https://github.com/ProjectBlaze-Devices/device_xiaomi_onclite/commit/4a4dee0f51f21bb3c45b8b9e77639b43ae0eb556) as a reference.
 ---------------------------------------------------------------------------------------
