@@ -58,6 +58,7 @@
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" groups="pdk" remote="blaze" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk" remote="blaze" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="pdk" remote="blaze" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk" remote="blaze" />
