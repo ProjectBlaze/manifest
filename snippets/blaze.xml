@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- GitLab -->
+  <remote  name="gitlab"
+           revision="12"
+           fetch="https://gitlab.com/rockstar5495" />
+
   <project path="android" name="manifest" remote="blaze" />
   <project path="art" name="art" groups="pdk" remote="blaze"/>
   <project path="bionic" name="bionic" groups="pdk" remote="blaze"/>
@@ -79,7 +84,7 @@
 
   <!-- vendor repos -->
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
-  <project path="vendor/gms" name="platform_vendor_gms" remote="gitlab" />
+  <project path="vendor/gms" name="platform_vendor_gms" remote="gitlab" clone-depth="1" />
   <project path="vendor/support" name="vendor_support" remote="blaze" />
 
 </manifest>
