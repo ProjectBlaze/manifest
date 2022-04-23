@@ -103,6 +103,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- prebuilt repos -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
