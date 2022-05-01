@@ -45,6 +45,7 @@
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="blaze" />
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="blaze" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaze" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="blaze" /> 
 
