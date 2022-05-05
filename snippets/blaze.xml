@@ -57,7 +57,6 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" groups="pdk" remote="blaze" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="blaze" />
   <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
-  <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="blaze" />
   
   <!-- packages repos -->
   <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" groups="pdk" remote="blaze" />
@@ -84,7 +83,6 @@
   <project path="system/bt" name="system_bt" remote="blaze" />
   <project path="system/core" name="system_core" groups="pdk" remote="blaze" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="blaze" />
-  <project path="system/nfc" name="system_nfc" remote="blaze" />
   <project path="system/security" name="system_security" groups="pdk" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="blaze" />
@@ -100,6 +98,5 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="blaze" /> 
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_opensource_interfaces_nfc" remote="blaze" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="blaze" />
-  <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="blaze" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="blaze" />
 </manifest>
