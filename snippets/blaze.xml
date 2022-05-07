@@ -3,7 +3,7 @@
 
   <!-- GitLab -->
   <remote  name="gitlab"
-           revision="12"
+           revision="12.1"
            fetch="https://gitlab.com/rockstar5495" />
 
   <project path="android" name="manifest" remote="blaze" />
@@ -91,7 +91,7 @@
 
   <!-- vendor repos -->
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
-  <project path="vendor/gms" name="platform_vendor_gms" remote="gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
   <project path="vendor/support" name="vendor_support" remote="blaze" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="blaze" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="blaze" />
