@@ -88,7 +88,6 @@
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
-  <remove-project name="platform/hardware/nxp/nfc" />
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Contacts" />

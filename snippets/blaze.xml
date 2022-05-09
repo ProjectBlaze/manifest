@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- GitLab -->
-  <remote  name="gitlab"
+   <!-- GitHub -->
+   <remote  name="blaze"
+           fetch="https://github.com/ProjectBlaze/"
+           revision="12.1" />
+
+   <remote  name="ProjectBlaze-Devices"
+           fetch="https://github.com/"
+           revision="12.1" />   
+
+   <!-- GitLab -->
+   <remote  name="gitlab"
            revision="12.1"
            fetch="https://gitlab.com/rockstar5495" />
 
@@ -56,7 +65,6 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="blaze" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="blaze" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" groups="pdk" remote="blaze" />
-  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="blaze" />
   <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
   
   <!-- packages repos -->
@@ -69,8 +77,7 @@
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" groups="pdk" remote="blaze" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk" remote="blaze" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="pdk" remote="blaze" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze" />
+   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk" remote="blaze" />
   <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="blaze" />
@@ -98,7 +105,4 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="blaze" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="blaze" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="blaze" /> 
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_opensource_interfaces_nfc" remote="blaze" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="blaze" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="blaze" />
-</manifest>
+ </manifest>
