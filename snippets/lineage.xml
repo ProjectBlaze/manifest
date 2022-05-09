@@ -5,7 +5,7 @@
    <remote  name="github"
            fetch="https://github.com/" />
 
-   <remote  name="LineageOS"
+   <remote  name="lineage"
            fetch="https://github.com/"
            revision="lineage-19.1" />
 
