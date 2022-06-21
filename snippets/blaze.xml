@@ -2,6 +2,9 @@
 <manifest>
 
    <!-- GitHub -->
+   <remote name="github"
+           fetch="https://github.com/" />
+
    <remote  name="blaze"
            fetch="https://github.com/ProjectBlaze/"
            revision="12.1" />
