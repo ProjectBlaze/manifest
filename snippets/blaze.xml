@@ -7,7 +7,7 @@
            revision="12.1" />
 
    <remote  name="ProjectBlaze-Devices"
-           fetch="https://github.com/"
+           fetch="https://github.com/ProjectBlaze-Devices/"
            revision="12.1" />   
 
    <!-- GitLab -->
