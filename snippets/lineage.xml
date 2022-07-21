@@ -36,6 +36,7 @@
 
   <!-- External Repo -->
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" revision="lineage-18.1" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage"  revision="lineage-19.1" />
 
   <!-- NXP additions -->
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="lineage" />
