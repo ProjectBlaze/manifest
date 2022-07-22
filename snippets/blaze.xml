@@ -90,6 +90,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaze" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaze" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" />
   
   <!-- system repos -->
   <project path="system/bpf" name="system_bpf" groups="pdk" remote="blaze" />
