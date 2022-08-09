@@ -92,6 +92,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaze" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" />
+  <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="blaze" />
   
   <!-- system repos -->
   <project path="system/bpf" name="system_bpf" groups="pdk" remote="blaze" />
