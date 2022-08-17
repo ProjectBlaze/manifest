@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <!-- GitHub -->
+   <remote name="github"
+           fetch="https://github.com/" />
+
+   <remote  name="blaze"
+           fetch="https://github.com/ProjectBlaze/"
+           revision="13" />
+
+    <remote  name="blaze13"
+           fetch="https://github.com/ProjectBlaze-WIP/"
+           revision="13" />
+
+   <remote  name="ProjectBlaze-Devices"
+           fetch="https://github.com/ProjectBlaze-Devices/"
+           revision="12.1" />   
+
+  <project path="android" name="manifest" remote="blaze13" />
+  <project path="build/make" name="build" groups="pdk"  remote="blaze13" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="blaze13" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="blaze13" />
+
+  <!-- device repos -->
+  <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" remote="blaze" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="blaze" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="blaze" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="blaze" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="blaze" />
+
+  <!-- hardware repos -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" groups="pdk" remote="blaze" />
+  <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
+  
+  <!-- packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze13" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
+    
+  <!-- vendor repos -->
+  <project path="vendor/blaze" name="vendor_blaze" remote="blaze13" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="blaze" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="blaze" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="blaze" />   
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="blaze" />
+</manifest>
