@@ -43,6 +43,7 @@
 
   <!-- hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" groups="pdk" remote="blaze" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="blaze" />
   <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
   
   <!-- packages repos -->

@@ -58,6 +58,7 @@
   <remove-project name="platform/external/tinycompress" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/google/easel" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
