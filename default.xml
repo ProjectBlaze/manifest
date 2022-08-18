@@ -11,7 +11,7 @@
 
   <remote  name="blaze-gitlab"
            fetch="https://gitlab.com/ProjectBlaze2022"
-           revision="refs/heads/12.1" />	
+           revision="refs/heads/arrow-12.1" />	
 	
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r11" />
   <contactinfo bugurl="go/repo-bug" />
