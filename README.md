@@ -6,7 +6,7 @@ To get started with Project Blaze, you'll need to get familiar with [Repo](https
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/ProjectBlaze-WIP/manifest.git -b 13
+repo init -u https://github.com/ProjectBlaze/manifest.git -b 13
 ```
 
 Then to sync up:
@@ -36,7 +36,6 @@ If building for your device, adapt your tree to our configurations. Use this [co
  * [**PixelDust**](https://github.com/PixelDust-Twelve)
  * [**ProtonAOSP**](https://github.com/ProtonAOSP)
  * [**crDroid**](https://github.com/crdroidandroid)
- * [**Octavi-OS**](https://github.com/Octavi-OS)
  * [**ArrowOS**](https://github.com/ArrowOS)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**AICP**](https://github.com/AICP)
@@ -44,9 +43,6 @@ If building for your device, adapt your tree to our configurations. Use this [co
  * [**YAAP**](https://github.com/yaap)
  * [**PixelExtended**](https://github.com/PixelExtended)
  * [**AospExtended**](https://github.com/AospExtended)
- * [**ElytraOS**](https://github.com/elytraOS)
- * [**ProjectArcana**](https://github.com/projectarcana-aosp)
- * [**ProjectRadiant**](https://github.com/projectradiant)
  * [**CipherOS**](https://github.com/CipherOS)
  * [**VoltageOS**](https://github.com/VoltageOS)
  * [**SparkROM**](https://github.com/Spark-Rom)
