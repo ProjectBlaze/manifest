@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
@@ -54,11 +56,26 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/gptfdisk" />
+
+  <!-- framework repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/libs/net" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/google/easel" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
@@ -66,6 +83,25 @@
   <remove-project name="platform/hardware/qcom/sdm845/display" />
 
   <!-- packages repos -->
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+
+  <!-- system repos -->
+  <remove-project name="platform/system/core"/>
+  <remove-project name="platform/system/sepolicy"/>
+  <remove-project name="platform/system/security"/>
+  <remove-project name="platform/system/vold"/>
+  <remove-project name="platform/system/update_engine"/> 
 </manifest>
