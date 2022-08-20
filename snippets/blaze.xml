@@ -15,8 +15,8 @@
 
    <!-- GitLab -->
    <remote  name="gitlab"
-           revision="12"
-           fetch="https://gitlab.com/rockstar5495" />
+            fetch="https://gitlab.com/projectblaze"
+	    revision="refs/heads/12.1" />
 
   <project path="android" name="manifest" remote="blaze" />
   <project path="art" name="art" groups="pdk" remote="blaze"/>
@@ -97,7 +97,7 @@
   <!-- system repos -->
   <project path="system/bpf" name="system_bpf" groups="pdk" remote="blaze" />
   <project path="system/bt" name="system_bt" remote="blaze" />
-  <project path="system/core" name="system_core" groups="pdk" remote="blaze" />
+  <project path="system/core" name="system_core" groups="pdk" remote="gitlab" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="blaze" />
   <project path="system/security" name="system_security" groups="pdk" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
