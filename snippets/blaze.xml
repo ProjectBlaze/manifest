@@ -87,6 +87,7 @@
 
   <!-- system repos -->
   <project path="system/core" name="system_core" groups="pdk" remote="gitlab" />
+  <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="blaze" />
   <project path="system/security" name="system_security" groups="pdk" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
   <project path="system/update_engine" name="system_update_engine" remote="blaze" />
