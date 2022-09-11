@@ -9,11 +9,11 @@
            fetch="https://gitlab.com/ProjectBlaze2022"
            revision="refs/heads/arrow-12.1" />
 
-  <default revision="refs/tags/android-12.1.0_r11"
+  <default revision="refs/tags/android-12.1.0_r22"
            remote="aosp"
-           sync-j="8" />	
-	
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r11" />
+           sync-j="8" />
+
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r22" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
