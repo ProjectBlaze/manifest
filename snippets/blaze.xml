@@ -45,6 +45,8 @@
 
   <!-- external repos -->
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="blaze" />
+  <project path="external/colorkt" name="external_colorkt" remote="blaze" />
+  <project path="external/themelib" name="external_themelib" remote="blaze" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="blaze" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="blaze" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="blaze" />
