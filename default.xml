@@ -4,9 +4,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="blaze13"
-           fetch="https://github.com/ProjectBlaze-WIP/"
-           revision="13" />
+  <remote  name="blaze-gitlab"
+           fetch="https://gitlab.com/ProjectBlaze2022/"
+           revision="refs/heads/13" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
