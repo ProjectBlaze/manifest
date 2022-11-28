@@ -52,6 +52,7 @@
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="blaze" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="blaze" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="blaze" />
+  <project path="external/xz" name="external_xz" remote="blaze" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="blaze" />
