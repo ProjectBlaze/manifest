@@ -72,6 +72,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="blaze" />
    
   <!-- packages repos -->
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="blaze" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk" remote="blaze" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk" remote="blaze" />
   <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" groups="pdk" remote="blaze" />
