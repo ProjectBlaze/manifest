@@ -40,6 +40,7 @@
   <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" remote="blaze" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="blaze" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="blaze" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="blaze" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="blaze" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="blaze" />
 
