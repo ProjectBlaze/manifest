@@ -13,6 +13,10 @@
            fetch="https://github.com/ProjectBlaze-Devices/"
            revision="12.1" />   
 
+   <remote  name="kdragon"
+           fetch="https://github.com/kdrag0n/"
+           revision="master" />
+	
   <!-- GitLab -->
    <remote  name="gitlab"
             fetch="https://gitlab.com/projectblaze"
@@ -117,4 +121,7 @@
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="blaze" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="blaze" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="blaze" />
+	
+  <!-- Custom Clangs -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdragon" clone-depth="1" />
 </manifest>
