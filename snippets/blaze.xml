@@ -113,8 +113,7 @@
   <!-- vendor repos -->
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
   <project path="vendor/gapps" name="vendor_gapps" remote="blaze-gitlab" clone-depth="1" />
-  <project path="vendor/support" name="vendor_support" remote="blaze" />
-  <project path="vendor/PixelLauncherExtended" name="vendor_PixelLauncherExtended" remote="blaze" />	
+  <project path="vendor/support" name="vendor_support" remote="blaze" />	
   <!--project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="blaze"/ -->
   <!--project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="blaze" /-->
   <!--project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="blaze" /-->   
