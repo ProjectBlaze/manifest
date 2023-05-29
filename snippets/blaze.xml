@@ -43,6 +43,7 @@
   <!-- device repos -->
   <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" remote="blaze" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="blaze" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="blaze" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="blaze" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="blaze" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="blaze" />
@@ -71,6 +72,8 @@
   <!-- hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" groups="pdk" remote="blaze" />
   <project path="hardware/motorola" name="hardware_motorola" groups="pdk" remote="blaze" />
+  <project path="hardware/oplus" name="hardware_oplus" groups="pdk" remote="blaze" />
+  <project path="hardware/dolby" name="hardware_dolby" groups="pdk" remote="blaze" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="blaze" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="blaze" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="blaze" />
@@ -115,6 +118,7 @@
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
   <project path="vendor/gapps" name="vendor_gapps" remote="blaze-gitlab" clone-depth="1" />
   <project path="vendor/support" name="vendor_support" remote="blaze" />	
+  <project path="vendor/qcom/common" name="vendor_qcom_common" remote="blaze" />
   <!--project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="blaze"/ -->
   <!--project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="blaze" /-->
   <!--project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="blaze" /-->   
