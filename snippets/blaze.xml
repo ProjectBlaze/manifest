@@ -71,7 +71,6 @@
 
   <!-- hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" groups="pdk" remote="blaze" />
-  <project path="hardware/motorola" name="hardware_motorola" groups="pdk" remote="blaze" />
   <project path="hardware/oplus" name="hardware_oplus" groups="pdk" remote="blaze" />
   <project path="hardware/dolby" name="hardware_dolby" groups="pdk" remote="blaze" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="blaze" />
