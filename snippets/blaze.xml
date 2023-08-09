@@ -104,7 +104,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaze" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="blaze" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="blaze" />
-  <!--project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" /-->
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" />
 
   <!-- system repos -->
   <project path="system/core" name="system_core" groups="pdk" remote="gitlab" />
