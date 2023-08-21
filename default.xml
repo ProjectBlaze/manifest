@@ -5,8 +5,8 @@
            fetch="https://github.com/" />
 
   <remote  name="blaze-gitlab"
-           fetch="https://gitlab.com/ProjectBlaze2022/"
-           revision="refs/heads/13" />
+           fetch="https://gitlab.com/projectblaze/"
+           revision="refs/heads/thirteen" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
