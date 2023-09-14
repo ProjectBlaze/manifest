@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
+   <remote name="github"
            fetch="https://github.com/" />
+  
+   <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
 
+   <remote  name="blaze"
+           fetch="https://github.com/ProjectBlaze/"
+           revision="13" />
+
+   <remote  name="ProjectBlaze-Devices"
+           fetch="https://github.com/ProjectBlaze-Devices/"
+           revision="13" />   
+
+   <remote  name="kdragon"
+           fetch="https://github.com/kdrag0n/"
+           revision="master" />
+	
   <remote  name="blaze-gitlab"
-           fetch="https://gitlab.com/projectblaze/"
-           revision="refs/heads/thirteen" />
+           fetch="https://gitlab.com/projectblaze"
+	         revision="refs/heads/13" />
+   
+   <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-20.0" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -1204,7 +1223,7 @@
   
   <!-- ProjectBlaze changes -->
   <include name="snippets/remove.xml" />
-  <include name="snippets/arrow.xml" />
+  <include name="snippets/hardware.xml" />
   <include name="snippets/blaze.xml" />
   <include name="snippets/lineage.xml" />
 </manifest>

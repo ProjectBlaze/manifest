@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-   <!-- GitHub -->
-   <remote name="github"
-           fetch="https://github.com/" />
-
-   <remote  name="blaze"
-           fetch="https://github.com/ProjectBlaze/"
-           revision="13" />
-
-   <remote  name="ProjectBlaze-Devices"
-           fetch="https://github.com/ProjectBlaze-Devices/"
-           revision="12.1" />   
-
-   <remote  name="kdragon"
-           fetch="https://github.com/kdrag0n/"
-           revision="master" />
-	
-  <!-- GitLab -->
-   <remote  name="gitlab"
-            fetch="https://gitlab.com/projectblaze"
-	    revision="refs/heads/13" />
-
   <project path="android" name="manifest" remote="blaze" />
   <project path="art" name="art" groups="pdk" remote="blaze"/>
   <project path="bionic" name="bionic" groups="pdk" remote="blaze"/>
@@ -56,6 +35,7 @@
   <project path="external/erofs-utils" name="external_erofs-utils" remote="blaze" />
   <project path="external/themelib" name="external_themelib" remote="blaze" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="blaze" />
+  <project path="external/tinyxml" name="external_tinyxml" groups="pdk" remote="blaze" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="blaze" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="blaze" />
   <project path="external/xz" name="external_xz" remote="blaze" />
@@ -107,7 +87,7 @@
   <!--project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" /-->
 
   <!-- system repos -->
-  <project path="system/core" name="system_core" groups="pdk" remote="gitlab" />
+  <project path="system/core" name="system_core" groups="pdk" remote="blaze-gitlab" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="blaze" />
   <project path="system/security" name="system_security" groups="pdk" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
@@ -116,15 +96,14 @@
 
   <!-- vendor repos -->
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="blaze-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="blaze-gitlab" revision="thirteen" clone-depth="1" />
   <project path="vendor/support" name="vendor_support" remote="blaze" />	
   <project path="vendor/qcom/common" name="vendor_qcom_common" remote="blaze" />
-  <!--project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="blaze"/ -->
-  <!--project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="blaze" /-->
-  <!--project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="blaze" /-->   
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="blaze" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="blaze" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="blaze" />
+  <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="blaze" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="blaze" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="blaze" />
 	
   <!-- Custom Clangs -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdragon" clone-depth="1" />
