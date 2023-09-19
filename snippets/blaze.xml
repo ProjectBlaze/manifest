@@ -64,6 +64,7 @@
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk" remote="blaze" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk" remote="blaze" />
   <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" groups="pdk" remote="blaze" />
+  <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" remote="blaze" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk" remote="blaze" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" groups="pdk" remote="blaze" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="blaze" />
