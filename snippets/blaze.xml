@@ -81,7 +81,6 @@
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="blaze" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaze" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaze" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="blaze" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="blaze" />
