@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="blaze"
+           fetch="https://github.com/ProjectBlaze-WIP"
+           revision="refs/heads/14" />
+
+  <remote  name="blaze-gitlab"
+           fetch="https://gitlab.com/projectblaze"
+           revision="refs/heads/14" />
+
+  <remote  name="blaze-gitea"
+           fetch="https://gitea.com/projectblaze"
+           revision="refs/heads/14" />
+
+  <!-- Rootdir -->
+  <project path="bionic" name="bionic" remote="blaze" />
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="blaze" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" remote="blaze">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="blaze">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="blaze" />
+  <project path="frameworks/base" name="frameworks_base" remote="blaze" />
+  <project path="frameworks/native" name="frameworks_native" remote="blaze" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaze" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="blaze" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" remote="blaze-gitea" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
+  <project path="system/vold" name="system_vold" remote="blaze" />
+  <project path="system/update_engine" name="system_update_engine" remote="blaze" />
+
+  <!-- Begin Extras -->
+
+  <!-- Device -->
+  <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" remote="blaze" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="blaze" />
+
+  <!-- Hardware -->
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="blaze" />
+
+  <!-- Vendor -->
+  <project path="vendor/blaze" name="vendor_blaze" revision="14-wip" remote="blaze" />
+  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="blaze-gitea" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="blaze" />
+</manifest>
