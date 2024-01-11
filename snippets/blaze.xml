@@ -40,6 +40,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="blaze" />
 
   <!-- Packages -->
+  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaze" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="blaze" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
@@ -61,6 +62,7 @@
 
   <!-- Vendor -->
   <project path="vendor/blaze" name="vendor_blaze" revision="14-wip" remote="blaze" />
+  <project path="vendor/support" name="vendor_support" revision="14" remote="blaze" />
   <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="blaze-gitea" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="blaze" />
 </manifest>
