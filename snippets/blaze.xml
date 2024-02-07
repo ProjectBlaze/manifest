@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="blaze"
-           fetch="https://github.com/ProjectBlaze-WIP"
+           fetch="https://github.com/ProjectBlaze"
            revision="refs/heads/14" />
 
   <remote  name="blaze-gitlab"
