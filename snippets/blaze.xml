@@ -43,6 +43,7 @@
   <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaze" />
   <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" remote="blaze" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaze" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="blaze" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaze" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="blaze" />
