@@ -6,13 +6,13 @@ To get started with Project Blaze, you'll need to get familiar with [Repo](https
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/ProjectBlaze/manifest -b 14
+repo init -u https://github.com/ProjectBlaze/manifest -b 14 --git-lfs
 ```
 
 Then to sync up:
 
 ```
-repo sync -c -j$(nproc --all) --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune && repo forall -c git lfs pull
+repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
 ```
 
 ---------------------------------------------------------------------------------------
