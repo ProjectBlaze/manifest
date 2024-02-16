@@ -70,6 +70,7 @@
 
   <!-- Vendor -->
   <project path="vendor/blaze" name="vendor_blaze" revision="14" remote="blaze" />
+  <project path="vendor/certification" name="vendor_certification" remote="blaze-gitea" />
   <project path="vendor/support" name="vendor_support" revision="14" remote="blaze" />
   <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="blaze-gitea" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="blaze" />
