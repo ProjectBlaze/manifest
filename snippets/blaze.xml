@@ -15,6 +15,7 @@
 
   <!-- Rootdir -->
   <project path="bionic" name="bionic" remote="blaze" />
+  <project path="art" name="art" remote="blaze" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" remote="blaze" />

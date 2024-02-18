@@ -3,6 +3,7 @@
 
   <!-- Rootdir -->
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/art" />
 
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
