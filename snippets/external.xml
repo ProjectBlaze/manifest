@@ -73,6 +73,7 @@
 
   <!-- System -->
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="LineageOS" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="pdk" revision="lineage-21" remote="LineageOS" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="LineageOS" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="LineageOS" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="LineageOS" />
