@@ -2,4 +2,5 @@
 <manifest>
   <!-- Vendor repos - QCOM -->
   <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="parasite" />
+  <project path="hardware/qcom-caf/sm8550/display" name="hardware_qcom-caf_sm8550_display" remote="parasite" />
 </manifest>
