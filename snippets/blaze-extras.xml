@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GitHub (ProjectBlaze-Extras) -->
+  <remote  name="blaze-extras"
+           fetch="https://github.com/ProjectBlaze-Extras"
+           revision="14" />
+		   
+  <!-- External -->>
+  <project path="external/bash" name="external_bash" revision="14" remote="blaze-extras" />
+  <project path="external/libncurses" name="external_libncurses" revision="14" remote="blaze-extras" />
+  <project path="external/nano" name="external_nano" revision="14" remote="blaze-extras" />
+  <project path="external/vim" name="external_vim" revision="14" remote="blaze-extras" />
+  
+</manifest>
