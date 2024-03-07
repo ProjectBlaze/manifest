@@ -3,11 +3,11 @@
   <!-- Remotes -->
   <remote name="parasite"
           fetch="https://github.com/TheParasiteProject/"
-          revision="14.0" />
+          revision="14.2" />
 
   <remote name="parasite-gitlab"
           fetch="https://gitlab.com/someone5678/"
-          revision="14.0" />
+          revision="14.2" />
 
   <!-- Device repos -->
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="parasite" />
