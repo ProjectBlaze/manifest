@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="proton"
+           fetch="https://github.com/kdrag0n/" 
+           revision="refs/heads/master" />
+
+  <remote  name="cosmic"
+           fetch="https://gitlab.com/GhostMaster69-dev/"
+           revision="refs/heads/master" />
+
+  <remote  name="playground"
+           fetch="https://gitlab.com/PixelOS-Devices/"
+           revision="refs/heads/17" />
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" clone-depth="1" remote="proton" />
+  <project path="prebuilts/clang/kernel/linux-x86/clang-cosmic" name="cosmic-clang" clone-depth="1" remote="cosmic" />
+  <project path="prebuilts/clang/host/linux-x86/clang-playgroundtc" name="playgroundtc" clone-depth="1" remote="playground" />
+</manifest>
