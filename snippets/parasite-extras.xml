@@ -11,7 +11,7 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="parasite" />
 
   <!-- Kernel repos -->
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.45" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.53" />
 
   <!-- Packages repos -->
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="parasite" />
