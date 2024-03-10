@@ -9,9 +9,6 @@
           fetch="https://gitlab.com/someone5678/"
           revision="14.2" />
 
-  <!-- Device repos -->
-  <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="parasite" />
-
   <!-- General repos -->
   <project path="art" name="art" remote="parasite" />
   <project path="bionic" name="bionic" remote="parasite" />

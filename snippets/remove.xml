@@ -3,22 +3,6 @@
   <!-- Device repos -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
-  <remove-project name="device/common" />
-  <remove-project name="device/generic/arm64" />
-  <remove-project name="device/generic/armv7-a-neon" />
-  <remove-project name="device/generic/art" />
-  <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/opengl-transport" />
-  <remove-project name="device/generic/trusty" />
-  <remove-project name="device/generic/uml" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/google/atv" />
   <remove-project name="device/google/barbet" />
   <remove-project name="device/google/barbet-sepolicy" />
   <remove-project name="device/google/bluejay" />
@@ -29,9 +13,6 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
-  <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_prebuilts" />
-  <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/felix" />
   <remove-project name="device/google/felix-sepolicy" />
   <remove-project name="device/google/felix-kernel" />
@@ -65,8 +46,6 @@
   <remove-project name="device/google/shusky-sepolicy" />
   <remove-project name="device/google/zuma" />
   <remove-project name="device/google/zuma-sepolicy" />
-  <remove-project name="device/google/vrservices" />
-  <remove-project name="device/google_car" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
   <remove-project name="device/linaro/hikey" />
