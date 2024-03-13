@@ -147,7 +147,4 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
-
-  <!-- Tools Repos -->
-  <remove-project name="platform/tools/metalava" />
 </manifest>
