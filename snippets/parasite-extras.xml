@@ -18,6 +18,7 @@
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="parasite" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="parasite" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="parasite-gitlab" />
+  <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="parasite" />
   <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="parasite" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="parasite" />
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
