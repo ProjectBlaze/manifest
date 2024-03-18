@@ -14,7 +14,6 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.56" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="parasite" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="parasite" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="parasite" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="parasite-gitlab" />
