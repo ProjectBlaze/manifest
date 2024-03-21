@@ -36,4 +36,7 @@
 
   <!-- Tools Repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
+  <!-- Misc Repos -->
+  <project path="lineage/scripts" name="scripts" revision="main" remote="lineage" />
 </manifest>
