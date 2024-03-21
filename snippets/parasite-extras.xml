@@ -30,11 +30,6 @@
 
   <!-- General repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="parasite" >
-    <!-- add guards for nxp repositories -->
-    <linkfile src="dummy/guard.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
-    <linkfile src="dummy/guard.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
-    <linkfile src="dummy/guard.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-    <linkfile src="dummy/guard.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
     <!-- add guards for kernel modules repositories -->
     <linkfile src="dummy/empty.mk" dest="kernel/modules/Android.mk" />
   </project>
