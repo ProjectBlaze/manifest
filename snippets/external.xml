@@ -14,38 +14,28 @@
 
   <!-- Device -->
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" remote="LineageOS" />
-  <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="LineageOS" />
-  <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk" remote="LineageOS" />
 
   <!-- External -->
-  <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
-  <project path="external/cronet" name="LineageOS/android_external_cronet" groups="pdk" remote="LineageOS" />
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="LineageOS" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="pdk" remote="LineageOS" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="LineageOS" />
-  <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="LineageOS" />
   <project path="external/libnl" name="LineageOS/android_external_libnl" groups="pdk" remote="LineageOS" />
   <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="LineageOS" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="LineageOS" />
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk" remote="LineageOS" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="LineageOS" />
   <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" remote="LineageOS" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
   <project path="external/zstd" name="LineageOS/android_external_zstd" groups="pdk" remote="LineageOS" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="LineageOS" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
 
   <!-- Hardware -->
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="LineageOS" />
   <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
-  <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" remote="LineageOS" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="LineageOS" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="LineageOS" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="LineageOS" />
@@ -57,29 +47,20 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
   <project path="hardware/qcom/sm8150/gps" name="LineageOS/android_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" remote="LineageOS" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="LineageOS" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="LineageOS" />
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" remote="LineageOS" />
 
   <!-- Packages -->
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" revision="refs/changes/72/368672/4" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" revision="refs/changes/82/368682/2" />
-  <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
-  <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="LineageOS" />
 
   <!-- System -->
-  <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="LineageOS" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="pdk" revision="lineage-21" remote="LineageOS" />
-  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="LineageOS" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="LineageOS" />
-  <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="LineageOS" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="LineageOS" />
-  <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="LineageOS" />
-  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" />
-  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="LineageOS" />
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" remote="LineageOS" />
   
   <!-- Begin Extras -->
