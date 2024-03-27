@@ -4,18 +4,14 @@
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
   <!-- External repos -->
-  <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/bson" name="android_external_bson" revision="lineage-20" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" revision="lineage-18.1" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
-  <project path="external/nano" name="android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/openssh" name="android_external_openssh" remote="lineage"  />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
-  <project path="external/vim" name="android_external_vim" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />

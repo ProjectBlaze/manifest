@@ -11,6 +11,11 @@
            fetch="https://gitea.com/ProjectBlaze/"
            revision="14" />
 
+  <!-- GitHub (ProjectBlaze-Extras) -->
+  <remote  name="blaze-extra"
+           fetch="https://github.com/ProjectBlaze-Extras"
+           revision="14" />
+
   <!-- Rootdir -->
   <project path="manifest" name="manifest" remote="blaze" />
 
@@ -36,6 +41,12 @@
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="blaze" revision="14" />
   <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" remote="blaze" revision="14"  />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" groups="qcom,sdm660" remote="blaze" revision="14"  />
+
+  <!-- External -->>
+  <project path="external/bash" name="external_bash" revision="14" remote="blaze-extra" />
+  <project path="external/libncurses" name="external_libncurses" revision="14" remote="blaze-extra" />
+  <project path="external/nano" name="external_nano" revision="14" remote="blaze-extra" />
+  <project path="external/vim" name="external_vim" revision="14" remote="blaze-extra" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
@@ -78,15 +89,15 @@
   </project>
 
   <!-- Packages -->
-  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" revision="14" />
+  <!--project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" revision="14" /-->
   <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" remote="blaze" revision="14" />
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaze" revision="14"  />
+  <!--project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaze" revision="14"  /-->
   <!--project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="blaze" /-->
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" revision="14"  />
-  <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="blaze" />
+  <!--project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="blaze" revision="14"  /-->
+  <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" revision="14" remote="blaze" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="blaze-gitea" revision="qpr2" />
-  <project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" revision="14" remote="blaze-extra" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="blaze"  revision="14" />
 
