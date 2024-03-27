@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Device repos -->
-  <project path="device/parasite/sepolicy" name="device_parasite_sepolicy" remote="parasite" />
-
   <!-- External repos -->
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-
-  <!-- Hardware repos -->
-  <project path="hardware/sony" name="hardware_sony" remote="parasite" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="parasite" />
 
   <!-- Kernel repos -->
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.56" />
@@ -16,31 +9,14 @@
   <!-- Packages repos -->
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="parasite" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="parasite" />
-  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="parasite-gitlab" />
   <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="parasite" />
   <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="parasite" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="parasite" />
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
-  <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="parasite" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="parasite" />
 
   <!-- Prebuilts repos -->
   <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="parasite" />
   <project path="prebuilts/tools-parasite" name="prebuilts_tools-parasite" remote="parasite" />
 
   <!-- General repos -->
-  <project path="vendor/aosp" name="vendor_aosp" remote="parasite" >
-    <!-- add guards for kernel modules repositories -->
-    <linkfile src="dummy/empty.mk" dest="kernel/modules/Android.mk" />
-  </project>
-  <project path="vendor/certification" name="vendor_certification" remote="parasite-gitlab" />
-  <project path="vendor/gms" name="vendor_gms" remote="parasite-gitlab" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="parasite" />
-  <project path="vendor/mainline_modules" name="vendor_mainline_modules" remote="parasite" />
-  <project path="vendor/microsoft" name="vendor_microsoft" remote="parasite-gitlab" />
-  <project path="vendor/parasite" name="vendor_parasite" remote="parasite" />
-  <project path="vendor/parasite-prebuilts" name="vendor_parasite-prebuilts" remote="parasite" />
-  <project path="vendor/pixel-additional" name="vendor_pixel-additional" remote="parasite" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="parasite" />
-  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="parasite" />
 </manifest>

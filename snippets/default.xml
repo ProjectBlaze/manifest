@@ -12,4 +12,7 @@
 
   <!-- Track LineageOS repos -->
   <include name="snippets/lineage.xml" />
+
+  <!-- Track ProjectEverest repos -->
+  <include name="snippets/blaze.xml" />
 </manifest>
