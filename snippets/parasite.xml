@@ -10,8 +10,6 @@
           revision="main" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="parasite" />
-  <project path="bionic" name="bionic" remote="parasite" />
   <project path="kernel/configs" name="kernel_configs" remote="parasite" />
   <project path="platform_testing" name="platform_testing" remote="parasite" />
 
@@ -30,7 +28,6 @@
   <project path="external/zstd" name="external_zstd" remote="parasite" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="parasite" />
   <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" remote="parasite" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="parasite" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="parasite" />
@@ -60,9 +57,7 @@
   <project path="system/logging" name="system_logging" remote="parasite" />
   <project path="system/media" name="system_media" remote="parasite" />
   <project path="system/netd" name="system_netd" remote="parasite" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="parasite" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="parasite" />
-  <project path="system/update_engine" name="system_update_engine" remote="parasite" />
   <project path="system/vold" name="system_vold" remote="parasite" />
 
   <include name="snippets/parasite-extras.xml" />

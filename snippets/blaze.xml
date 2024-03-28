@@ -17,6 +17,8 @@
            revision="14" />
 
   <!-- Rootdir -->
+  <project path="art" name="art" remote="blaze" />
+  <project path="bionic" name="bionic" remote="blaze" />
   <project path="manifest" name="manifest" remote="blaze" />
 
   <!-- Bootable -->
@@ -49,6 +51,7 @@
   <project path="external/vim" name="external_vim" revision="14" remote="blaze-extra" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
 
@@ -102,7 +105,9 @@
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="blaze"  revision="14" />
 
   <!-- System -->
-  <project path="system/core" name="system_core" groups="pdk" remote="blaze-gitea" />
+  <project path="system/core" name="system_core" groups="pdk" revision="14-QPR2" remote="blaze-gitea" />
+  <project path="system/sepolicy" name="system_sepolicy" revision="14-QPR2" remote="blaze" />
+  <project path="system/update_engine" name="system_update_engine" remote="blaze" />
 
   <!-- Vendor -->
   <project path="vendor/certification" name="vendor_certification" remote="blaze-gitea" />
